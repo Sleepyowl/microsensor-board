@@ -70,7 +70,7 @@
 			(layer "B.SilkS"
 				(type "Bottom Silk Screen")
 			)
-			(copper_finish "None")
+			(copper_finish "ENIG")
 			(dielectric_constraints no)
 		)
 		(pad_to_mask_clearance 0)
@@ -81,7 +81,7 @@
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
 			(disableapertmacros no)
 			(usegerberextensions no)
-			(usegerberattributes yes)
+			(usegerberattributes no)
 			(usegerberadvancedattributes yes)
 			(creategerberjobfile yes)
 			(dashed_line_dash_ratio 12.000000)
@@ -111,9 +111,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "./CAM")
 		)
 	)
 	(net 0 "")
@@ -167,7 +167,7 @@
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP3"
-			(at 0 -1.448 0)
+			(at -0.063609 -1.468763 0)
 			(layer "F.SilkS")
 			(uuid "8033229a-bf40-44aa-977b-5196a7fcf79e")
 			(effects
@@ -1352,7 +1352,7 @@
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP5"
-			(at 0 -1.448 0)
+			(at -0.430648 -1.459986 0)
 			(layer "F.SilkS")
 			(uuid "ec1bb4bc-1fc8-4484-8c0c-d66c3c0155af")
 			(effects
@@ -1455,7 +1455,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R5"
-			(at 0.227064 1.6 90)
+			(at 0.025 -2.3 180)
 			(layer "F.SilkS")
 			(uuid "f6d61e01-b32e-4355-8a79-bd89b5d5ff97")
 			(effects
@@ -2094,7 +2094,7 @@
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP6"
-			(at 0 -1.448 0)
+			(at 0.257912 -1.459986 0)
 			(layer "F.SilkS")
 			(uuid "93d9bb45-61e1-4503-abae-8cbaa2ea2046")
 			(effects
@@ -2197,7 +2197,7 @@
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP2"
-			(at 0 -1.448 0)
+			(at 0.38164 -1.459743 0)
 			(layer "F.SilkS")
 			(uuid "447eff7e-970e-490a-ab3f-fdf429006015")
 			(effects
@@ -3961,17 +3961,6 @@
 			(layer "F.Fab")
 			(uuid "1389a92e-b76f-4f39-99d7-68722720a502")
 		)
-		(fp_text user "*"
-			(at -6.250001 -3.55 0)
-			(layer "F.SilkS")
-			(uuid "7b75b090-306e-4f02-816b-073368613195")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
 			(unlocked yes)
@@ -4857,7 +4846,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R1"
-			(at 0 -1.65 90)
+			(at 0 1.85 90)
 			(layer "F.SilkS")
 			(uuid "c486f70b-5772-4aad-ae7e-541e89ee77ea")
 			(effects
@@ -5056,7 +5045,7 @@
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP1"
-			(at -2.5 -0.25 0)
+			(at -0.825 -1.775 0)
 			(layer "F.SilkS")
 			(uuid "204e246b-11c8-443b-a240-d3957e8cfb02")
 			(effects
@@ -5162,6 +5151,18 @@
 		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "5621142c-7abd-49e9-a369-fb4784916e47")
+	)
+	(gr_text "BLEsensor v0.1"
+		(at 63.575 59.5 90)
+		(layer "F.SilkS")
+		(uuid "0ee92369-69cb-4e75-b768-c2170ca9108d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
 	)
 	(dimension
 		(type orthogonal)
