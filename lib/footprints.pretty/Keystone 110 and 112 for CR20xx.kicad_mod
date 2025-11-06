@@ -1,0 +1,95 @@
+(footprint "Keystone 110 and 112 for CR20xx"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -11.6 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "6c5a344c-e8b2-4157-9ad7-b59cbe0fb593")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Keystone 110 and 112 for CR20xx"
+		(at 0 -9.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e1f3ba5c-926a-44f0-badb-0cde0131a28d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 -20 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4a9a383a-57f7-439d-a9e9-6d205be5fc01")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 -20 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "56ad3a0d-2e69-4cf8-9554-b323c669a122")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center 0 -0.1)
+		(end -10 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "cfe24fc3-d5b4-4dca-bcd9-f353c811a2d8")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -7.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e15659c1-28b2-4865-9d90-5ec0b5f33462")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -13.1 0)
+		(size 3.4 3.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "e7d4ec8f-490d-4662-8a3b-01ae74f50e90")
+	)
+	(pad "2" smd roundrect
+		(at 0 0)
+		(size 4 3.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "8c3cde40-752f-459c-8393-6b1dfb452730")
+	)
+	(embedded_fonts no)
+)

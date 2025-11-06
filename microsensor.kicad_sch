@@ -5637,7 +5637,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Battery:BatteryHolder_Keystone_3000_1x12mm"
+		(property "Footprint" "footprints:Keystone 110 and 112 for CR20xx"
 			(at 27.94 100.076 90)
 			(effects
 				(font

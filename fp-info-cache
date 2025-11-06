@@ -1,4 +1,4 @@
-26717141639377248
+26718903839368966
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -106350,6 +106350,13 @@ BMD-360-A-R
 0
 47
 47
+footprints
+Keystone 110 and 112 for CR20xx
+
+
+0
+2
+2
 footprints
 LGA62_8X8X1_ISP1507_ISP
 
