@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "2025-10-10_17-20-30")(type "KiCad")(uri "${KIPRJMOD}/lib/2025-10-10_17-20-30.kicad_sym")(options "")(descr ""))
   (lib (name "BMD-360-A-R")(type "KiCad")(uri "${KIPRJMOD}/lib/BMD-360-A-R.kicad_sym")(options "")(descr ""))
+  (lib (name "NORA-B2x5")(type "KiCad")(uri "${KIPRJMOD}/lib/NORA-B2x5.kicad_sym")(options "")(descr ""))
 )
