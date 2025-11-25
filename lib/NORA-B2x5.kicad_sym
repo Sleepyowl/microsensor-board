@@ -478,7 +478,7 @@
 					(type none)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at 7.62 -5.08 180)
 				(length 2.54)
 				(name "~{RESET}"
@@ -532,7 +532,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at 7.62 -12.7 180)
 				(length 2.54)
 				(name "SWO"
