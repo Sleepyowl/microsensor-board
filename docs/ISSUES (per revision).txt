@@ -1,0 +1,15 @@
+PROBLEMS with revisions
+
+v0.1
+- no resistor between bulk cap and battery (still works though)
+- RV2038 EVT pin is floating (higher current consumption)
+
+v0.2
+- i2c routed to invalid pins
+	- nRF54 needs both on port1 and "clock-capable" pin for SCL
+	- possible will work with both on port0 with &i2c30
+	- "fixable" by sacrificing button and test point (used for UART TX)
+- N-MOS is not needed on this board
+	- fixable by bridging two pads of Q2
+- Divider saturates nRF54 ADC with internal vref 
+	- fixable with 100K resistor instead of 220K resistor
