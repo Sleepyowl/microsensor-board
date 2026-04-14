@@ -6,7 +6,8 @@ An example firmware for the board can be found here: [microsensor-firmware](http
 
 # Features
 
-- 2 layer PCB layout
+- 4 layer PCB layout
+    - NB: earlier versions routed with 2 layers
 - External RTC allows System Off sleep enabling ultra-low power consumption
 - SoC supports BLE, ZigBee and Thread
 - Miniature 6-pin Tag-Connect for firmware burning and debugging
@@ -19,12 +20,14 @@ An example firmware for the board can be found here: [microsensor-firmware](http
 
 # Manufacturing
 
-I have manufactured working prototypes on PCBWay with the following parameters, though I would really evaluate using ENIG for the panelized version.
+I have manufactured working prototypes on PCBWay with the following parameters:
 
 | Parameter              | Value            |
 |------------------------|------------------|
-| Layers                 | 2                |
+| Layers                 | 4                |
 | Thickness              | 0.8 mm           |
 | Min Track / Spacing    | 4 / 4 mil        |
 | Min Hole Size          | 0.3 mm           |
-| Surface Finish         | HASL (Lead-Free) |
+| Surface Finish         | ENIG             |
+
+While it is possile get working boards with HASL lead-free, it might require manual retouching of some parts (e.g. RTC chip).
