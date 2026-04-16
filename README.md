@@ -25,7 +25,7 @@ I have manufactured working prototypes on PCBWay with the following parameters:
 | Parameter              | Value            |
 |------------------------|------------------|
 | Layers                 | 4                |
-| Thickness              | 0.8 mm           |
+| Thickness              | 1.6 mm           |
 | Min Track / Spacing    | 4 / 4 mil        |
 | Min Hole Size          | 0.3 mm           |
 | Surface Finish         | ENIG             |
