@@ -584,7 +584,7 @@
       "method": 0,
       "sort_order": 0
     },
-    "bom_export_filename": "/home/dmitry/Documents/ki/microsensor.csv",
+    "bom_export_filename": "BOM/BOM.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",

@@ -6612,7 +6612,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "0.1u"
 			(at 57.15 138.4299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9988,7 +9988,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "0.1u"
 			(at 256.54 107.9499 0)
 			(show_name no)
 			(do_not_autoplace no)
